@@ -5,7 +5,7 @@ use std::env;
 use std::io::{self, Write};
 use std::process::Command;
 
-#[derive(Serialize, Clone)] // Add this line to derive the Clone trait
+#[derive(Serialize, Clone)]
 struct Message {
     role: String,
     content: String,
